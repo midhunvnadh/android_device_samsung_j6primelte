@@ -16,8 +16,8 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Havoc stuff
+$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
 
 # Inherit from j6primelte device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -28,7 +28,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 PRODUCT_BRAND := samsung
 PRODUCT_DEVICE := j6primelte
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_NAME := lineage_j6primelte
+PRODUCT_NAME := havoc_j6primelte
 PRODUCT_MODEL := Galaxy J6+
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung

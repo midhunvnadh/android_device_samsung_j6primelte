@@ -14,4 +14,8 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_j6primelte.mk
+    $(LOCAL_DIR)/havoc_j6primelte.mk
+
+COMMON_LUNCH_CHOICES := \
+havoc_j6primelte-userdebug \
+havoc_j6primelte-eng
