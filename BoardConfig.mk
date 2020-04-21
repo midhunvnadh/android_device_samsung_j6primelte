@@ -19,8 +19,8 @@ DEVICE_PATH := device/samsung/j6primelte
 TARGET_KERNEL_CONFIG := j6primelte_defconfig
 
 # Filesystem
-BOARD_SYSTEMIMAGE_PARTITION_SIZE := 2453520000
-BOARD_VENDORIMAGE_PARTITION_SIZE := 295698432
+BOARD_SYSTEMIMAGE_PARTITION_SIZE := 3397386240
+BOARD_VENDORIMAGE_PARTITION_SIZE := 503316480
 
 # Inherit from common msm8917-common
 -include device/samsung/msm8917-common/BoardConfigCommon.mk
