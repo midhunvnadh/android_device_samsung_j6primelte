@@ -25,7 +25,7 @@ PRODUCT_COPY_FILES += \
 #    fingerprint.msm8937
 
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service.samsung
+    android.hardware.biometrics.fingerprint@2.1-service.samsung8917
 	
 # Permissions
 PRODUCT_COPY_FILES += \
